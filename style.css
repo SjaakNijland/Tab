@@ -1,0 +1,72 @@
+body
+{
+    font-family: sans-serif;
+    background-color: lightgoldenrodyellow;
+}
+.knoppen
+{
+    overflow: hidden;
+    margin: 0 auto;
+    width: 50%;
+}
+.knoppen li
+{
+    list-style: none;
+    float: left;
+    border: 2px solid black;
+    background-color: lightgrey;
+    color: black;
+    width: 22%;
+    
+}
+.knoppen li a{
+    color: black;
+    text-align: center;
+}
+knoppen li.actief
+{
+    background-color: deepskyblue;
+}
+.paneel
+{
+/*     display: none;*/
+}
+.paneel.actief
+{
+    display: block !important;
+}
+.paneel img
+{
+    max-width: 100%;
+}
+
+#validatie img 
+{
+    height: 2em;
+    width: auto;
+    border: 0;
+    margin: 0 .3em;
+}
+@font-face{
+    font-family: news;
+    src: url(SEASRN__.ttf);
+}
+h1{
+    font-family: news;
+    margin:  0 auto;
+    text-align: center;
+   
+}
+h2{
+   font-family: news; 
+}
+footer{
+    border: 2px solid black;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+.paneel{
+    text-align: center;
+    margin: 0 auto;
+}
