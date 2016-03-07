@@ -6,8 +6,7 @@ body
 .knoppen
 {
     overflow: hidden;
-    margin: 0 auto;
-    width: 50%;
+  
 }
 .knoppen li
 {
@@ -21,7 +20,11 @@ body
 }
 .knoppen li a{
     color: black;
-    text-align: center;
+ 
+}
+.knoppen li a:hover{
+    color: white;
+ 
 }
 knoppen li.actief
 {
@@ -45,7 +48,6 @@ knoppen li.actief
     height: 2em;
     width: auto;
     border: 0;
-    margin: 0 .3em;
 }
 @font-face{
     font-family: news;
@@ -53,20 +55,16 @@ knoppen li.actief
 }
 h1{
     font-family: news;
-    margin:  0 auto;
-    text-align: center;
-   
+
 }
 h2{
    font-family: news; 
 }
 footer{
     border: 2px solid black;
-    width: 50%;
-    text-align: center;
-    margin: 0 auto;
+  
+ 
 }
 .paneel{
-    text-align: center;
-    margin: 0 auto;
+  
 }
